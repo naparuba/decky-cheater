@@ -6,7 +6,7 @@ echo "Container's IP address: `awk 'END{print $1}' /etc/hosts`"
 # memscan is built from source (fork of kayon/memscan), pinned to an exact commit.
 # Override with: MEMSCAN_REF=<commit|tag|branch> in the environment.
 MEMSCAN_REPO="naparuba/memscan"
-MEMSCAN_REF="${MEMSCAN_REF:-bd6bd26608e1291f4b4c25d64a607ce528e5eeac}"
+MEMSCAN_REF="${MEMSCAN_REF:-ae5b4b3ac9ef3c28a3e2483012f67d6299d74573}"
 BACKEND_SHARED="memscan.so"
 ARCHIVE_URL="https://github.com/$MEMSCAN_REPO/archive/$MEMSCAN_REF.tar.gz"
 
