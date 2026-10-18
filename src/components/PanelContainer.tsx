@@ -40,7 +40,7 @@ const PanelContainer = (props: PanelContainerProps): JSX.Element => {
   return (
     <div
       ref={containerRef}
-      className="reroll-panel-container"
+      className="cheater-panel-container"
       style={{
         width: '100%',
         overflowY: 'hidden',
@@ -49,7 +49,7 @@ const PanelContainer = (props: PanelContainerProps): JSX.Element => {
       }}
     >
       <style>{`
-        .reroll-panel-container > div {
+        .cheater-panel-container > div {
           margin-bottom: 0 !important;
         }
       `}</style>

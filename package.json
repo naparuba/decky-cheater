@@ -1,5 +1,5 @@
 {
-  "name": "decky-reroll",
+  "name": "decky-cheater",
   "version": "0.2.1",
   "description": "A high-performance memory scanning plugin for the Steam Deck.",
   "type": "module",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kayon/decky-reroll.git"
+    "url": "git+https://github.com/naparuba/decky-cheater.git"
   },
   "keywords": [
     "cheat",
@@ -18,12 +18,15 @@
     "steam-deck",
     "decky"
   ],
-  "author": "Kayon <kayon.hu@gmail.com>",
+  "author": "naparuba",
+  "contributors": [
+    "Kayon <kayon.hu@gmail.com> (original author of Reroll)"
+  ],
   "license": "LGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/kayon/decky-reroll/issues"
+    "url": "https://github.com/naparuba/decky-cheater/issues"
   },
-  "homepage": "https://github.com/kayon/decky-reroll#readme",
+  "homepage": "https://github.com/naparuba/decky-cheater#readme",
   "devDependencies": {
     "@decky/rollup": "^1.0.2",
     "@decky/ui": "^4.11.1",

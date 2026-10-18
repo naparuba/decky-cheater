@@ -262,7 +262,7 @@ function TitleContent() {
       }
       `}</style>
       {globalStateSnap.loading ? <Loading /> : <RiDiceFill style={{ fontSize: '26px' }} />}
-      <span>Reroll</span>
+      <span>Cheater</span>
     </div>
   )
 }
@@ -301,7 +301,7 @@ export default definePlugin(() => {
   )
 
   return {
-    name: 'Reroll',
+    name: 'Cheater',
     titleView: <TitleContent />,
     content: <Content />,
     icon: <RiDiceFill style={{ fontSize: '20px' }} />,
